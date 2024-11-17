@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --radius: 8px;
+}
+
+@layer utilities {
+}
