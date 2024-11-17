@@ -2,13 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
 
-:root {
-  --radius: 8px;
+@layer utilities {
+  .container {
+    @apply w-[1140px] m-auto;
+  }
+  .header {
+    @apply w-full h-[70px] leading-[70px] bg-dark-100;
+  }
 }
 
-@layer utilities {
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
 }

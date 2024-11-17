@@ -3,8 +3,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className=" flex size-full  flex-col items-center justify-center gap-6">
-      <h1>Home</h1>
+    <div className="container">
+      <div className="header"> 
+        <h5>Where in the world</h5>
+      </div>
       <Link href="/about">About</Link>
     </div>
   );
