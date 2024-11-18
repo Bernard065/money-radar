@@ -1,13 +1,11 @@
-import Link from "next/link";
 import React from "react";
+
+import CurrencyList from "@/components/CurrencyList";
 
 const Home = () => {
   return (
-    <div className="container">
-      <div className="header"> 
-        <h5>Where in the world</h5>
-      </div>
-      <Link href="/about">About</Link>
+    <div>
+      <CurrencyList />
     </div>
   );
 };

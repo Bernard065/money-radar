@@ -10,15 +10,11 @@
 
 body {
   font-family: "Inter", sans-serif;
+  @apply bg-gray-50 dark:bg-gray-900;
 }
 
 @layer utilities {
-  .container {
-    @apply w-[1140px] m-auto;
-  }
-  .header {
-    @apply w-full h-[70px] leading-[70px] bg-dark-100;
-  }
+  
 }
 
 @layer base {
