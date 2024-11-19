@@ -45,8 +45,11 @@ const CurrencyList = () => {
   return (
     <div>
       {currencies.map((c, index) => (
-        <div key={index}>
-          <p>{c.nameI18N || c.currency}</p>
+        <div key={index} style={{ marginBottom: "20px" }}>
+          <h3>
+            {index + 1}. {c.nameI18N || "Country name not available"}
+          </h3>
+          <p>Currency - {c.currency || "not available"}</p>
           {c.flags && typeof c.flags === "string" && (
             <img
               src={c.flags}
@@ -54,11 +57,8 @@ const CurrencyList = () => {
               style={{ width: "50px", height: "30px" }}
             />
           )}
-          {c.flags &&
-            Array.isArray(c.flags) &&
-            c.flags.includes("provided") && (
-              <p>Flag data is provided but not specified.</p>
-            )}
+          <p>Buy rate - {c.exchangeRate?.buy || "not available"}</p>
+          <p>Sell rate - {c.exchangeRate?.sell || "not available"}</p>
         </div>
       ))}
     </div>

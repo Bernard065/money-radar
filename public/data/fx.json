@@ -45,11 +45,8 @@
       "flags": "/flags/mexico.png"
     },
     {
-      "currency": "STD",
-      "precision": 2
-    },
-    {
       "currency": "LVL",
+      "nameI18N": "Latvian Lats",
       "precision": 2,
       "denominations": [500, 100, 50, 20, 10, 5],
       "exchangeRate": {
@@ -89,11 +86,6 @@
       "flags": "/flags/seychelles.png"
     },
     {
-      "currency": "CDF",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
       "currency": "BBD",
       "precision": 2,
       "nameI18N": "Barbados Dollar",
@@ -114,11 +106,6 @@
       "flags": "/flags/barbados.png"
     },
     {
-      "currency": "GTQ",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
       "currency": "CLP",
       "precision": 0,
       "nameI18N": "Chilian Peso",
@@ -132,11 +119,6 @@
       "flags": "/flags/chile.png"
     },
     {
-      "currency": "HNL",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
       "currency": "UGX",
       "precision": 0,
       "nameI18N": "Uganda Shilling",
@@ -148,10 +130,6 @@
         "lastModified": "2018-11-08T23:00:00Z"
       },
       "flags": "/flags/uganda.png"
-    },
-    {
-      "currency": "XEU",
-      "precision": 2
     },
     {
       "currency": "ZAR",
@@ -195,11 +173,6 @@
       "flags": "/flags/tunisia.png"
     },
     {
-      "currency": "CUC",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
       "currency": "BSD",
       "precision": 2,
       "nameI18N": "Bahamanian-Dollar",
@@ -233,10 +206,6 @@
       "flags": "/flags/sierra-leone.png"
     },
     {
-      "currency": "SDD",
-      "precision": 0
-    },
-    {
       "currency": "IQD",
       "precision": 3,
       "nameI18N": "Iraqi Dinar",
@@ -250,17 +219,8 @@
       "flags": "/flags/ir.png"
     },
     {
-      "currency": "GMD",
-      "precision": 2,
-      "flags": "/flags/gm.png"
-    },
-    {
       "currency": "CUP",
-      "precision": 0,
-      "nameI18N": "Cuban Peso"
-    },
-    {
-      "currency": "   ",
+      "nameI18N": "Cuban Peso",
       "precision": 2,
       "banknoteRate": {
         "buy": 882.5,
@@ -269,7 +229,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/cuba.png"
     },
     {
       "currency": "TWD",
@@ -333,10 +293,6 @@
       "flags": "/flags/dominican-republic.png"
     },
     {
-      "currency": "KMF",
-      "precision": 0
-    },
-    {
       "currency": "MYR",
       "precision": 2,
       "nameI18N": "Malaysian Ringgit",
@@ -358,6 +314,7 @@
     },
     {
       "currency": "FKP",
+      "nameI18N": "Falkland Islands Pound",
       "precision": 2,
       "exchangeRate": {
         "buy": 1,
@@ -370,6 +327,7 @@
     },
     {
       "currency": "XOF",
+      "nameI18N": "West African CFA Franc",
       "precision": 0,
       "exchangeRate": {
         "buy": 616.7508,
@@ -385,17 +343,9 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/benin.png"
     },
-    {
-      "currency": "GEL",
-      "precision": 2
-    },
-    {
-      "currency": "UYU",
-      "precision": 2,
-      "flags": ["provided"]
-    },
+
     {
       "currency": "MAD",
       "precision": 2,
@@ -414,17 +364,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "CVE",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "TOP",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/ma.png"
     },
     {
       "currency": "OMR",
@@ -444,7 +384,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/oman.png"
     },
     {
       "currency": "PGK",
@@ -457,7 +397,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/papua-guinea.png"
     },
     {
       "currency": "KES",
@@ -477,7 +417,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/ke.png"
     },
     {
       "currency": "SEK",
@@ -498,26 +438,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "BTN",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "GNF",
-      "precision": 0,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "SVC",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "MZM",
-      "precision": 0
+      "flags": "/flags/sweden.png"
     },
     {
       "currency": "ARS",
@@ -537,7 +458,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/argentina.png"
     },
     {
       "currency": "QAR",
@@ -557,7 +478,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/qatar.png"
     },
     {
       "currency": "IRR",
@@ -570,10 +491,11 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/ir.png"
     },
     {
       "currency": "NLG",
+      "nameI18N": "Dutch Guilder",
       "precision": 2,
       "exchangeRate": {
         "buy": 2.20371,
@@ -589,11 +511,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "TPE",
-      "precision": 0
+      "flags": "/flags/netherlands.png"
     },
     {
       "currency": "MRO",
@@ -606,7 +524,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/mauritania.png"
     },
     {
       "currency": "CNY",
@@ -626,7 +544,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/china.png"
     },
     {
       "currency": "THB",
@@ -647,11 +565,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "UZS",
-      "precision": 2
+      "flags": "/flags/thailand.png"
     },
     {
       "currency": "XPF",
@@ -671,7 +585,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/france.png"
     },
     {
       "currency": "BDT",
@@ -684,7 +598,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/bangladesh.png"
     },
     {
       "currency": "LYD",
@@ -697,7 +611,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/ly.png"
     },
     {
       "currency": "BMD",
@@ -737,7 +651,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/kw.png"
     },
     {
       "currency": "PHP",
@@ -757,12 +671,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "XXX",
-      "precision": 5,
-      "flags": ["provided"]
+      "flags": "/flags/philippines.png"
     },
     {
       "currency": "RUB",
@@ -783,12 +692,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "PYG",
-      "precision": 0,
-      "flags": ["provided"]
+      "flags": "/flags/russia.png"
     },
     {
       "currency": "ISK",
@@ -808,7 +712,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/is.png"
     },
     {
       "currency": "JMD",
@@ -828,10 +732,11 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/jm.png"
     },
     {
       "currency": "BEF",
+      "nameI18N": "Belgian Franc",
       "precision": 0,
       "denominations": [10000, 2000, 1000, 500, 200, 100],
       "exchangeRate": {
@@ -848,7 +753,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/belgium.png"
     },
     {
       "currency": "ESP",
@@ -868,7 +773,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/spain.png"
     },
     {
       "currency": "COP",
@@ -881,7 +786,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/colombia.png"
     },
     {
       "currency": "MKD",
@@ -894,7 +799,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/mk.png"
     },
     {
       "currency": "USD",
@@ -915,7 +820,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/usa.png"
     },
     {
       "currency": "DZD",
@@ -928,12 +833,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "PAB",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/algeria.png"
     },
     {
       "currency": "SGD",
@@ -954,7 +854,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/singapore.png"
     },
     {
       "currency": "ETB",
@@ -967,10 +867,11 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/ethiopia.png"
     },
     {
       "currency": "VEB",
+      "nameI18N": "Venezuelan Bolivar",
       "precision": 2,
       "exchangeRate": {
         "buy": 3089.1,
@@ -979,25 +880,7 @@
         "indicator": 0,
         "lastModified": "2011-07-25T22:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "KGS",
-      "precision": 2
-    },
-    {
-      "currency": "SOS",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "VUV",
-      "precision": 0,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "LAK",
-      "precision": 2
+      "flags": "/flags/venezuela.png"
     },
     {
       "currency": "BND",
@@ -1017,11 +900,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "ZMK",
-      "precision": 0
+      "flags": "/flags/brunei.png"
     },
     {
       "currency": "XAF",
@@ -1041,15 +920,11 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "LRD",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/cameroon.png"
     },
     {
       "currency": "ATS",
+      "nameI18N": "Austrian Schilling",
       "precision": 2,
       "exchangeRate": {
         "buy": 13.7603,
@@ -1065,7 +940,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/austria.png"
     },
     {
       "currency": "CHF",
@@ -1086,7 +961,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/switzerland.png"
     },
     {
       "currency": "HRK",
@@ -1107,11 +982,12 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/hr.png"
     },
     {
       "currency": "ITL",
       "precision": 0,
+      "nameI18N": "Italian Lira",
       "denominations": [500000, 100000, 50000, 10000, 5000, 1000],
       "exchangeRate": {
         "buy": 1936.27,
@@ -1127,24 +1003,12 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "ALL",
-      "precision": 2
-    },
-    {
-      "currency": "DJF",
-      "precision": 0,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "GHC",
-      "precision": 0
+      "flags": "/flags/it.png"
     },
     {
       "currency": "MTL",
       "precision": 2,
+      "nameI18N": "Maltese Lira",
       "denominations": [20, 10, 5, 2],
       "exchangeRate": {
         "buy": 0.4293,
@@ -1160,15 +1024,11 @@
         "indicator": 0,
         "lastModified": "2007-06-10T22:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "ATX",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/malta.png"
     },
     {
       "currency": "TZS",
+      "nameI18N": "Tanzanian Shilling",
       "precision": 2,
       "exchangeRate": {
         "buy": 1,
@@ -1177,7 +1037,7 @@
         "indicator": 0,
         "lastModified": "2011-05-08T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/tanzania.png"
     },
     {
       "currency": "VND",
@@ -1197,10 +1057,11 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/vietnam.png"
     },
     {
       "currency": "TRL",
+      "nameI18N": "Turkish Lira",
       "precision": 0,
       "banknoteRate": {
         "buy": 1857500,
@@ -1208,7 +1069,8 @@
         "sell": 2042500,
         "indicator": 0,
         "lastModified": "2007-06-05T22:00:00Z"
-      }
+      },
+      "flags": "/flags/turkey.png"
     },
     {
       "currency": "AUD",
@@ -1229,7 +1091,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/australia.png"
     },
     {
       "currency": "ILS",
@@ -1250,16 +1112,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "GYD",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "KPW",
-      "precision": 2
+      "flags": "/flags/il.png"
     },
     {
       "currency": "BOB",
@@ -1272,15 +1125,7 @@
         "indicator": 0,
         "lastModified": "2013-01-22T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "KHR",
-      "precision": 2
-    },
-    {
-      "currency": "MDL",
-      "precision": 2
+      "flags": "/flags/bolivia.png"
     },
     {
       "currency": "IDR",
@@ -1300,7 +1145,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/id.png"
     },
     {
       "currency": "KYD",
@@ -1314,19 +1159,6 @@
         "lastModified": "2018-11-08T23:00:00Z"
       },
       "flags": ["provided"]
-    },
-    {
-      "currency": "AMD",
-      "precision": 2
-    },
-    {
-      "currency": "BWP",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "SHP",
-      "precision": 2
     },
     {
       "currency": "TRY",
@@ -1347,11 +1179,12 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/turkey.png"
     },
     {
       "currency": "CYP",
       "precision": 2,
+      "nameI18N": "Cypriot pound",
       "denominations": [20, 10, 5, 1],
       "exchangeRate": {
         "buy": 0.585274,
@@ -1380,12 +1213,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "MUE",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/lb.png"
     },
     {
       "currency": "JOD",
@@ -1405,7 +1233,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/jo.png"
     },
     {
       "currency": "AED",
@@ -1425,7 +1253,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/uae.png"
     },
     {
       "currency": "HKD",
@@ -1446,11 +1274,6 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "RWF",
-      "precision": 0,
       "flags": ["provided"]
     },
     {
@@ -1475,11 +1298,6 @@
       "flags": ["provided", "tradingProhibited"]
     },
     {
-      "currency": "LSL",
-      "precision": 2,
-      "nameI18N": "Lesotho Loti"
-    },
-    {
       "currency": "DKK",
       "precision": 2,
       "nameI18N": "Danish Krone",
@@ -1498,10 +1316,11 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/denmark.png"
     },
     {
       "currency": "ZWD",
+      "nameI18N": "Zimbabwe Dollar",
       "precision": 2,
       "exchangeRate": {
         "buy": 46490,
@@ -1510,7 +1329,7 @@
         "indicator": 0,
         "lastModified": "2008-05-01T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/zimbabwe.png"
     },
     {
       "currency": "CAD",
@@ -1531,7 +1350,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/canada.png"
     },
     {
       "currency": "BGN",
@@ -1551,10 +1370,11 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/bulgaria.png"
     },
     {
       "currency": "EEK",
+      "nameI18N": "Kroon",
       "precision": 2,
       "denominations": [500, 100, 50, 25, 10],
       "exchangeRate": {
@@ -1571,7 +1391,7 @@
         "indicator": 0,
         "lastModified": "2010-12-28T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/estonia.png"
     },
     {
       "currency": "MMK",
@@ -1591,7 +1411,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/mm.png"
     },
     {
       "currency": "MUR",
@@ -1611,7 +1431,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/mauritius.png"
     },
     {
       "currency": "NOK",
@@ -1632,7 +1452,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/norway.png"
     },
     {
       "currency": "SYP",
@@ -1651,21 +1471,11 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "ROL",
-      "precision": 0,
-      "banknoteRate": {
-        "buy": 44500,
-        "middle": 48000,
-        "sell": 51500,
-        "indicator": 0,
-        "lastModified": "2007-06-05T22:00:00Z"
-      }
+      "flags": "/flags/syria.png"
     },
     {
       "currency": "GIP",
+      "nameI18N": "Gibraltar Pound",
       "precision": 2,
       "exchangeRate": {
         "buy": 3,
@@ -1694,7 +1504,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/romania.png"
     },
     {
       "currency": "LKR",
@@ -1714,7 +1524,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/lk.png"
     },
     {
       "currency": "NGN",
@@ -1727,12 +1537,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "CRC",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/nigeria.png"
     },
     {
       "currency": "CZK",
@@ -1753,10 +1558,11 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/czech.png"
     },
     {
       "currency": "IEP",
+      "nameI18N": "Irish pound",
       "precision": 2,
       "denominations": [100, 50, 20, 10, 5],
       "exchangeRate": {
@@ -1773,7 +1579,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/ie.png"
     },
     {
       "currency": "PKR",
@@ -1793,11 +1599,12 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/pakistan.png"
     },
     {
       "currency": "GRD",
       "precision": 0,
+      "nameI18N": "Greek Drachmae",
       "denominations": [10000, 5000, 500, 100],
       "exchangeRate": {
         "buy": 340.75,
@@ -1813,7 +1620,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/gr.png"
     },
     {
       "currency": "XCD",
@@ -1833,17 +1640,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "ANG",
-      "precision": 2,
-      "flags": ["provided"]
-    },
-    {
-      "currency": "HTG",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/dominica.png"
     },
     {
       "currency": "BHD",
@@ -1863,10 +1660,11 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/bahrain.png"
     },
     {
       "currency": "SIT",
+      "nameI18N": "Slovenian Tolar",
       "precision": 2,
       "denominations": [10000, 5000, 1000, 500, 200, 100, 50],
       "exchangeRate": {
@@ -1883,11 +1681,12 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/slovenia.png"
     },
     {
       "currency": "PTE",
       "precision": 0,
+      "nameI18N": "Portuguese Escudos",
       "denominations": [10000, 5000, 2000, 1000, 500],
       "exchangeRate": {
         "buy": 200.482,
@@ -1903,17 +1702,7 @@
         "indicator": 0,
         "lastModified": "2008-08-06T22:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "KZT",
-      "precision": 2,
-      "nameI18N": "Kazhakstan Tenge"
-    },
-    {
-      "currency": "SZL",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/portugal.png"
     },
     {
       "currency": "LTL",
@@ -1934,7 +1723,7 @@
         "indicator": 0,
         "lastModified": "2014-12-29T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/lt.png"
     },
     {
       "currency": "SAR",
@@ -1954,7 +1743,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/saudi.png"
     },
     {
       "currency": "TTD",
@@ -1974,7 +1763,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/trinidad-tobago.png"
     },
     {
       "currency": "YER",
@@ -1987,7 +1776,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/yemen.png"
     },
     {
       "currency": "MVR",
@@ -2007,7 +1796,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/maldives.png"
     },
     {
       "currency": "AFN",
@@ -2020,7 +1809,7 @@
         "indicator": 0,
         "lastModified": "2018-11-08T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/afghanistan.png"
     },
     {
       "currency": "INR",
@@ -2040,11 +1829,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "AWG",
-      "precision": 2
+      "flags": "/flags/in.png"
     },
     {
       "currency": "KRW",
@@ -2064,7 +1849,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/kr.png"
     },
     {
       "currency": "NPR",
@@ -2084,7 +1869,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
+      "flags": "/flags/nepal.png"
     },
     {
       "currency": "JPY",
@@ -2105,16 +1890,7 @@
         "indicator": 0,
         "lastModified": "2018-11-06T23:00:00Z"
       },
-      "flags": ["provided"]
-    },
-    {
-      "currency": "MNT",
-      "precision": 2
-    },
-    {
-      "currency": "AOA",
-      "precision": 2,
-      "flags": ["provided"]
+      "flags": "/flags/jp.png"
     },
     {
       "currency": "PLN",
@@ -2158,11 +1934,8 @@
       "flags": "/flags/great-britain.png"
     },
     {
-      "currency": "SBD",
-      "precision": 2
-    },
-    {
       "currency": "CSD",
+      "nameI18N": "Serbian Dinar",
       "precision": 0,
       "banknoteRate": {
         "buy": 77.13,
@@ -2189,6 +1962,7 @@
     },
     {
       "currency": "LUF",
+      "nameI18N": "Luxembourg Franc",
       "precision": 0,
       "exchangeRate": {
         "buy": 40.3399,
@@ -2208,6 +1982,7 @@
     },
     {
       "currency": "BIF",
+      "nameI18N": "Burundian Franc",
       "precision": 0,
       "exchangeRate": {
         "buy": 3,
@@ -2233,6 +2008,7 @@
     },
     {
       "currency": "FIM",
+      "nameI18N": " Finnish Markka",
       "precision": 2,
       "denominations": [1000, 500, 100, 50, 20],
       "exchangeRate": {
@@ -2253,6 +2029,7 @@
     },
     {
       "currency": "BZD",
+      "nameI18N": " Belizean Dollar",
       "precision": 2,
       "exchangeRate": {
         "buy": 2,
@@ -2265,6 +2042,7 @@
     },
     {
       "currency": "DEM",
+      "nameI18N": "Deutschmark",
       "precision": 2,
       "denominations": [1000, 500, 200, 100, 50, 20, 10],
       "exchangeRate": {
@@ -2282,15 +2060,6 @@
         "lastModified": "2008-08-06T22:00:00Z"
       },
       "flags": "/flags/germany.png"
-    },
-    {
-      "currency": "MGF",
-      "precision": 0
-    },
-    {
-      "currency": "BAM",
-      "precision": 2,
-      "nameI18N": "Convertible Mark"
     },
     {
       "currency": "EGP",
@@ -2340,6 +2109,7 @@
     },
     {
       "currency": "SKK",
+      "nameI18N": "Slovakia Koruna",
       "precision": 2,
       "denominations": [5000, 1000, 500, 200, 100, 50],
       "exchangeRate": {
@@ -2357,14 +2127,6 @@
         "lastModified": "2008-12-30T23:00:00Z"
       },
       "flags": "/flags/slovakia.png"
-    },
-    {
-      "currency": "NIO",
-      "precision": 2
-    },
-    {
-      "currency": "TMM",
-      "precision": 2
     },
     {
       "currency": "PEN",
@@ -2401,18 +2163,9 @@
       "flags": "/flags/new-zealand.png"
     },
     {
-      "currency": "WST",
-      "precision": 2,
-      "flags": "/flags/samoa.png"
-    },
-    {
-      "currency": "TMT",
-      "precision": 2,
-      "flags": "/flags/turkmenistan.png"
-    },
-    {
       "currency": "FRF",
       "precision": 2,
+      "nameI18N": "French Franc",
       "denominations": [500, 200, 100, 50, 20],
       "exchangeRate": {
         "buy": 6.55957,
