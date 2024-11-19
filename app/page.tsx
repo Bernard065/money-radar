@@ -2,11 +2,13 @@ import React from "react";
 
 import CurrencyList from "@/components/CurrencyList";
 import Header from "@/components/Header";
+import SearchBar from "@/components/SearchBar";
 
 const Home = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <Header />
+      <SearchBar />
       <CurrencyList />
     </div>
   );
