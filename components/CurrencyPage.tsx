@@ -1,44 +1,29 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-
+import { useState, useMemo, useCallback } from "react";
 import CurrencyList from "./CurrencyList";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
-
-interface ExchangeRate {
-  buy: number;
-  middle: number;
-  sell: number;
-}
-
-interface Currency {
-  currency: string;
-  nameI18N: string;
-  exchangeRate: ExchangeRate;
-  flags: string;
-}
+import { Currency } from "@/types"; // Import types from shared file
 
 interface CurrencyPageProps {
   initialCurrencies: Currency[];
 }
 
 const CurrencyPage = ({ initialCurrencies }: CurrencyPageProps) => {
-  const [filteredCurrencies, setFilteredCurrencies] =
-    useState<Currency[]>(initialCurrencies);
+  const [searchTerm, setSearchTerm] = useState("");
 
-  // Use useCallback to memoize the handleSearch function and prevent unnecessary re-renders
-  const handleSearch = useCallback((term: string) => {
-    setFilteredCurrencies((prevCurrencies) =>
-      prevCurrencies.filter((currency) =>
-        currency.nameI18N?.toLowerCase().includes(term.toLowerCase())
-      )
+  
+  const filteredCurrencies = useMemo(() => {
+    return initialCurrencies.filter((currency) =>
+      currency.nameI18N?.toLowerCase().includes(searchTerm.toLowerCase())
     );
-  }, []);
+  }, [initialCurrencies, searchTerm]);
 
-  useEffect(() => {
-    setFilteredCurrencies(initialCurrencies);
-  }, [initialCurrencies]);
+  // Handle the search input change
+  const handleSearch = useCallback((term: string) => {
+    setSearchTerm(term);
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">
