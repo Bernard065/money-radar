@@ -7,7 +7,7 @@ interface SearchBarProps {
   onSearch: (term: string) => void;
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
+const SearchBar = ({ onSearch }: SearchBarProps) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {

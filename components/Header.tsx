@@ -1,4 +1,3 @@
-// app/components/Header.tsx
 const Header = () => {
   return (
     <header className="bg-blue-600 py-4 text-center text-white">

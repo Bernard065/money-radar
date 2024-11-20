@@ -313,19 +313,6 @@
       "flags": "/flags/malaysia.png"
     },
     {
-      "currency": "FKP",
-      "nameI18N": "Falkland Islands Pound",
-      "precision": 2,
-      "exchangeRate": {
-        "buy": 1,
-        "middle": 1.25,
-        "sell": 1.5,
-        "indicator": 0,
-        "lastModified": "2010-05-11T22:00:00Z"
-      },
-      "flags": ["provided"]
-    },
-    {
       "currency": "XOF",
       "nameI18N": "West African CFA Franc",
       "precision": 0,
@@ -1275,27 +1262,6 @@
         "lastModified": "2018-11-06T23:00:00Z"
       },
       "flags": ["provided"]
-    },
-    {
-      "currency": "EUR",
-      "precision": 2,
-      "nameI18N": "Euro",
-      "denominations": [500, 200, 100, 50, 20, 10, 5],
-      "exchangeRate": {
-        "buy": 1,
-        "middle": 1,
-        "sell": 1,
-        "indicator": 0,
-        "lastModified": "2001-12-31T23:00:00Z"
-      },
-      "banknoteRate": {
-        "buy": 1,
-        "middle": 1,
-        "sell": 1,
-        "indicator": 0,
-        "lastModified": "2008-08-06T22:00:00Z"
-      },
-      "flags": ["provided", "tradingProhibited"]
     },
     {
       "currency": "DKK",

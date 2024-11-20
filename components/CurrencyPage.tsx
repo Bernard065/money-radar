@@ -1,15 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 import CurrencyList from "./CurrencyList";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 
+interface ExchangeRate {
+  buy: number;
+  middle: number;
+  sell: number;
+}
+
 interface Currency {
   currency: string;
   nameI18N: string;
-  exchangeRate: { middle: number };
+  exchangeRate: ExchangeRate;
   flags: string;
 }
 
@@ -17,17 +23,22 @@ interface CurrencyPageProps {
   initialCurrencies: Currency[];
 }
 
-const CurrencyPage: React.FC<CurrencyPageProps> = ({ initialCurrencies }) => {
+const CurrencyPage = ({ initialCurrencies }: CurrencyPageProps) => {
   const [filteredCurrencies, setFilteredCurrencies] =
-    useState(initialCurrencies);
+    useState<Currency[]>(initialCurrencies);
 
-  const handleSearch = (term: string) => {
-    setFilteredCurrencies(
-      initialCurrencies.filter((currency) =>
+  // Use useCallback to memoize the handleSearch function and prevent unnecessary re-renders
+  const handleSearch = useCallback((term: string) => {
+    setFilteredCurrencies((prevCurrencies) =>
+      prevCurrencies.filter((currency) =>
         currency.nameI18N?.toLowerCase().includes(term.toLowerCase())
       )
     );
-  };
+  }, []);
+
+  useEffect(() => {
+    setFilteredCurrencies(initialCurrencies);
+  }, [initialCurrencies]);
 
   return (
     <div className="min-h-screen bg-gray-50">
