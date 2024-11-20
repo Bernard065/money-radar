@@ -1,17 +1,29 @@
-import React from "react";
+// app/page.tsx
+import { Suspense } from "react";
 
-import CurrencyList from "@/components/CurrencyList";
-import Header from "@/components/Header";
-import SearchBar from "@/components/SearchBar";
+import CurrencyPage from "@/components/CurrencyPage";
 
-const Home = () => {
+// Server-side data fetching
+async function fetchCurrencies() {
+  const response = await fetch("http://localhost:3000//data/fx.json");
+  if (!response.ok) {
+    throw new Error("Failed to fetch currency data.");
+  }
+  const data = await response.json();
+  return data.fx.map((fx: any) => ({
+    currency: fx.currency,
+    nameI18N: fx.nameI18N,
+    exchangeRate: fx.exchangeRate,
+    flags: fx.flags,
+  }));
+}
+
+export default async function Home() {
+  const currencies = await fetchCurrencies();
+
   return (
-    <div className="min-h-screen">
-      <Header />
-      <SearchBar />
-      <CurrencyList />
-    </div>
+    <Suspense fallback={<p>Loading currencies...</p>}>
+      <CurrencyPage initialCurrencies={currencies} />
+    </Suspense>
   );
-};
-
-export default Home;
+}

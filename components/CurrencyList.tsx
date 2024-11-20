@@ -1,67 +1,41 @@
-"use client";
+// app/components/CurrencyList.tsx
+import React from "react";
 
-import React, { useEffect, useState } from "react";
-
-// Define the type for the currency object
 interface Currency {
   currency: string;
-  precision: number;
-  nameI18N?: string;
-  exchangeRate?: {
-    buy: number;
-    middle: number;
-    sell: number;
-    indicator: number;
-    lastModified: string;
-  };
-  banknoteRate?: {
-    buy: number;
-    middle: number;
-    sell: number;
-    indicator: number;
-    lastModified: string;
-  };
-  flags?: string[];
+  nameI18N: string;
+  exchangeRate: { middle: number };
+  flags: string;
 }
 
-const CurrencyList = () => {
-  const [currencies, setCurrencies] = useState<Currency[]>([]); // Typing the state as an array of Currency objects
+interface CurrencyListProps {
+  currencies: Currency[];
+}
 
-  useEffect(() => {
-    const fetchCurrencies = async () => {
-      try {
-        const response = await fetch("/data/fx.json");
-        const data = await response.json();
-
-        setCurrencies(data.fx);
-      } catch (error) {
-        console.error("Error fetching currencies:", error);
-      }
-    };
-
-    fetchCurrencies();
-  }, []);
-
+const CurrencyList: React.FC<CurrencyListProps> = ({ currencies }) => {
   return (
-    <div>
-      {currencies.map((c, index) => (
-        <div key={index} style={{ marginBottom: "20px" }}>
-          <h3>
-            {index + 1}. {c.nameI18N || "Country name not available"}
-          </h3>
-          <p>Currency - {c.currency || "not available"}</p>
-          {c.flags && typeof c.flags === "string" && (
-            <img
-              src={c.flags}
-              alt={`${c.currency} flag`}
-              style={{ width: "50px", height: "30px" }}
-            />
-          )}
-          <p>Buy rate - {c.exchangeRate?.buy || "not available"}</p>
-          <p>Sell rate - {c.exchangeRate?.sell || "not available"}</p>
-        </div>
+    <ul className="grid grid-cols-1 gap-4 p-4 text-black md:grid-cols-2 lg:grid-cols-3">
+      {currencies.map((currency) => (
+        <li
+          key={currency.currency}
+          className="flex items-center space-x-4 rounded-lg bg-white p-4 shadow"
+        >
+          <img
+            src={currency.flags}
+            alt={`${currency.currency} flag`}
+            className="size-10"
+          />
+          <div>
+            <h2 className="text-lg font-bold">{currency.nameI18N}</h2>
+            <p>{currency.currency}</p>
+            <p>
+              Exchange Rate:{" "}
+              {(currency.exchangeRate?.middle * 115.8).toFixed(2)} KES
+            </p>
+          </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };
 
