@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 import { Currency } from "@/types"; // Import types from the shared file
@@ -15,11 +14,11 @@ const CurrencyList = ({ currencies }: CurrencyListProps) => {
           key={currency.currency}
           className="flex items-center space-x-4 rounded-lg bg-white p-4 shadow"
         >
-          {/* Render flag image if available, else show a placeholder */}
           {currency.flags ? (
-            <Image
-              src={currency.flags}
-              alt={`${currency.nameI18N} flag`} // Improve accessibility by including the currency name
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={currency.flags} // Avoid empty string
+              alt={`${currency.nameI18N} flag`}
               width={32}
               height={32}
               className="object-contain"
