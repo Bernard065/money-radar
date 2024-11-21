@@ -1,5 +1,5 @@
-import { Currency } from "@/types";
 import CurrencyPage from "@/components/CurrencyPage";
+import { Currency } from "@/types";
 
 async function fetchCurrencies() {
   try {
@@ -40,7 +40,6 @@ async function fetchCurrencies() {
   }
 }
 
-// Directly fetch data inside the component as a Server Component
 const Home = async () => {
   const currencies = await fetchCurrencies();
   return <CurrencyPage initialCurrencies={currencies} />;
