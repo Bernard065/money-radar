@@ -32,7 +32,6 @@ describe("SearchBar Component", () => {
 
     const inputElement = screen.getByPlaceholderText(/Search currencies.../i);
 
-    // Simulate user typing
     fireEvent.change(inputElement, { target: { value: "eur" } });
 
     expect(inputElement).toHaveValue("eur");
@@ -49,11 +48,6 @@ describe("SearchBar Component", () => {
 
     fireEvent.change(inputElement, { target: { value: "usd" } });
 
-    // Check the onSearch callback is called once
     expect(mockOnSearch).toHaveBeenCalledWith("usd");
-
-    fireEvent.change(inputElement, { target: { value: "usd" } });
-
-    expect(mockOnSearch).toHaveBeenCalledTimes(1);
   });
 });

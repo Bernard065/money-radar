@@ -1,10 +1,12 @@
 "use client";
 
 import { useState, useMemo, useCallback } from "react";
+
+import { Currency } from "@/types"; // Import types from shared file
+
 import CurrencyList from "./CurrencyList";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
-import { Currency } from "@/types"; // Import types from shared file
 
 interface CurrencyPageProps {
   initialCurrencies: Currency[];
@@ -13,7 +15,6 @@ interface CurrencyPageProps {
 const CurrencyPage = ({ initialCurrencies }: CurrencyPageProps) => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  
   const filteredCurrencies = useMemo(() => {
     return initialCurrencies.filter((currency) =>
       currency.nameI18N?.toLowerCase().includes(searchTerm.toLowerCase())

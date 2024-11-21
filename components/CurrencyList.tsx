@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+
 import { Currency } from "@/types"; // Import types from the shared file
 
 interface CurrencyListProps {
@@ -24,7 +25,7 @@ const CurrencyList = ({ currencies }: CurrencyListProps) => {
               className="object-contain"
             />
           ) : (
-            <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center">
+            <div className="flex size-8 items-center justify-center rounded-full bg-gray-300">
               <span className="text-xs text-gray-600">No Flag</span>
             </div>
           )}
